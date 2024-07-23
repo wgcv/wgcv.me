@@ -1,0 +1,45 @@
+---
+title: 'Hackearon el nintendo switch! ¿Que se viene ahora?'
+date: '2018-02-22'
+tags: ['tech', 'nintendo', 'español']
+draft: false
+summary: 'Esta semana, el Nintendo Switch fue hackeado para ejecutar Linux y homebrew, abriendo la puerta a nuevas posibilidades y potenciales cambios en el mundo de los videojuegos. ¡Descubre cómo estas innovaciones podrían revolucionar la consola y qué significa para el futuro de la Switch! 🚀🎮'
+---
+
+Esta semana hubieron muchas novedades para la [Nitendo switch](/blog/es/tech/llego-la-nueva-consola-nintendo-switch) vamos a analizarlas, lo bueno y lo malo que nos espera! (Está muy cerca poder jugar copias en la switch)
+
+### Se corrió Linux en una switch!
+
+![](/static/images/content/2023/hackearon-el-nintendo-switch-que-se-viene-ahora/linux-nintendo-switch.jpeg) El equipo de [fail0verflow](https://fail0verflow.com) logró correr linux dentro de una switch y  eso no es todo, es totalmente funcional e incluye teclado en la pantalla táctil, aun que siendo honestos quien quiere linux en una Switch si lo que queremos es jugar? Lo interesante está en como lo lograron, y fue crackeando el procesador Nvidia Tegra. Lo increíble de esto es que nos abre una puerta para  instalar custom firmware (Versiones modificadas del sistema operativo), pero por si eso no fuera suficiente lo hicieron sin modificar la consola físicamente, si no por explotis del Nvidia Tegra. Esta vulnerabilidad es casi imposible de eliminarla por parte de nintendo, la única forma sería sacando otra consola.
+
+> Code execution is all the rage these days, but can your Switch do \*this\*? ;-) [#switchnix](https://twitter.com/hashtag/switchnix?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/NMnBq61tOM](https://t.co/NMnBq61tOM)
+>
+> — fail0verflow (@fail0verflow) [February 17, 2018](https://twitter.com/fail0verflow/status/964954316892119040?ref_src=twsrc%5Etfw)
+
+### El primer HOMEBREW para el Switch
+
+![](/static/images/content/2023/hackearon-el-nintendo-switch-que-se-viene-ahora/Ya-puedes-instalar-Homebrew-Launcher-en-la-Nintendo-Switch.jpg) Como si no fuera suficiente saber que el bootloader puede ser modificado, se libera el primer homebrew launcher por parte de [switchbrew](http://switchbrew.org/index.php?title=Main_Page). Para los que no saben que es el homebrew, se podría decir que la traducción es software casero o software no oficial, esto significa que ahora podremos correr aplicaciones en nuestra switch sin ser firmadas por nintendo, todos podremos desarrollar, crear y correr apps. Actualmente no existen muchas apps además de algunas de prueba (Hola mundo, reproducir un sonido y ver una imagen), entre la más destacada está un emulador Arcade. Si eres Early adopters y ya quieres hackear tu switch puedes ver los pasos [aquí](https://switchbrew.github.io/nx-hbl/) pero debe estar en la versión 3.0.0, por cierto no es nada complicado! Si estás en la última version 4.1.0 no te decepciones tal vez salga algo pronto o ese es el rumor que hasta la última version es hackeable, pero no actualices más.
+
+### ¿Ya hay juegos piratas?
+
+No, no hay juegos piratas ni baneos y esperemos que no lo hayan pero al parecer esta más cerca de lo que parece. Pero hay un mundo increíble y tal vez cambie mucho el rumbo de la switch con estos nuevos hacks, lo hablaremos ahora; como pasó con el iphone (Les voy a deber una entrada de ese tema, es una historia genial!).
+
+### ¿Es fácil programar para la switch?
+
+Depende! Existen motores super fáciles como Unreal Engine o Unity, otros más complicados y otros que son privados y nunca sabremos. Pero si queremos hacer una app para el homebrew, se puede usar una herramienta que lleva mucho tiempo con nosotros desde el Game Cube, Nintendo Ds y Wii con [devkitpro](https://devkitpro.org/) y [libnx](https://switchbrew.github.io/libnx/files.html). La instalación es super fácil, se encuentra en la página de [switchbrew](http://switchbrew.org/index.php?title=Setting_up_Development_Environment) y te recomiendo si vas a usar un emulador uses [Ryujinx](https://github.com/gdkchan/Ryujinx) y no Yuzu (Creo que no lo mencioné, ya existen emuladores de la switch).
+
+![](/static/images/content/2023/hackearon-el-nintendo-switch-que-se-viene-ahora/WhatsApp-Image-2018-02-22-at-1.34.19-PM.jpeg) Mi primera app para el nintendo switch
+
+Se desarrolla en C y no es nada agradable, no existen aún librerias 3d y peor aún un motor gráfico, pero es interesante lo que se puede llegar a lograr si quieres probarlo te dejo el código en [mi github](https://github.com/wgcv/switch-examples/blob/92f3217411b8ea61de3eaa4cc0cd392025fcf964/graphics/simplegfx/source/main.c).
+
+# El futuro del Nintendo Switch
+
+Con todas estas novedades, Nintendo anunció que va a sacar una [suscripción online para Septiembre](https://www.nintendo.com/switch/online-service/) y que nosotros vamos querer pagarla según dijeron! Se ha llenado de expectativas sobre saber que nos van a ofrecer para querer pagar, ya que actualmente el online de nintendo es muy malo. Por parte los hacks y vulnerabilidades, lo más seguro es que ponga restricciones en los juegos para solicitar una versión actualizada de nuestra switch, mucho de estas vulnerabilidades son por el hardware que tiene la switch pero no creo que saquen una nueva versión física.
+
+Pero, es bueno o malo que existan estos hacks? Cada vez que la comunidad empieza a presionar de esta forma y encuentra vulnerabilidades, hacks, software no oficial las grandes empresas empiezan a dar un cambio en su modelo de negocio. Creo que es muy importante para los desarrolladores indies y para los consumidores, tendremos muchos nuevos contenidos y más libertad, tal vez hasta netflix se anime a darnos una app (Ya que está en todos los dispositivos menos la switch) y hasta nintendo empiece un servicio de suscripción de juegos, lo cual cambiaría la industria de los mismos. Estoy seguro que los pequeños desarrolladores no se quedarán a fuera de la siwtch, es la consola perfecta para ellos y un mercado muy grande, nintendo tendrá que decidir si los quiere apoyar creando un sistema como steam o sentir la presión de software no oficial de la comunidad. La compañía japonesa ha sido muy disruptiva estos últimos 2 años, lo cual no me sorprendería que tenga un excelente modo de hacer feliz a sus consumidores y dejar la piratería a un lado.
+
+Gente genial que me saco unas dudas:
+[@futurepr0n](https://twitter.com/futurepr0n)
+[@yellows8](https://github.com/yellows8)
+[@xataka](https://twitter.com/xataka)
+[@sashadavila](https://twitter.com/sashadavila)

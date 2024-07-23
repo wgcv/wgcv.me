@@ -1,0 +1,78 @@
+---
+title: 'La minería de bitcoins y ethereum en la nube'
+date: '2016-07-11'
+tags: ['crypto', 'blockchain', 'bitcoin', 'etherum', 'español']
+draft: false
+summary: 'Invertí en minería de criptomonedas y les comparto mi experiencia. Tras analizar opciones como minado local, pools, equipos especializados y minado en la nube.'
+---
+
+La semana pasada invertí un poquito de plata para minar criptomonedas y les traigo mi experiencia. Si quieres puedes empezar leyendo mi entrada anterior sobre [¿Que son criptomonedas?](/blog/es/crypto/que-son-criptomonedas/).
+
+Primero analice las diferentes formas de minar, tenia:
+
+## Minar localmente:
+
+Poner a mi equipo a minar (Realizar cálculos matemáticos) esto implica que mi computadora va a estar siempre muy ocupada y pondría al máximo mi hardware, con el tiempo podría que se me dañe. Ademas actualmente el hardware no rinde para tener una ganancia por el alto consumo de electricidad y bajo rendimiento (Son miles de algoritmos Sha-256 por segundos). Definitivamente descarté la idea por el costo, bajo rendimiento y por el estrés en el hardware.
+
+## Pool:
+
+Otro inconveniente es casi imposible completar un bloque minando solo, debes siempre ingresar una pool. Ayudándonos con su traducción es una piscina, esto quiere decir varios mineros (poder de calculo) están trabajando para un mismo bloque de la moneda esto hace que tengas mas posibilidad de encontrar un nuevo bloque y ganar la recompensa. Al fina la recompensa se divide para los trabajadores o mineros dependiendo de su capacidad y la pool se lleva un porcentaje (0%-5%) de la ganancia.
+
+## Minar con un equipo especializado:
+
+Existen equipos altamente costosos no usan tu GPU pero aun tu CPU que es mas lento que la GPU, son equipos especializados en minar. Dependiendo de su capacidad va relacionado el costo, también depende el consumo eléctrico. Estos equipos son los mas recomendados para minar pero existe un problema es que mientras más se mina van quedando obsoletos porque necesitas mas velocidad. Existen equipos desde $60 hasta los $3500 o aun más. Estos equipos usan circuitos integrados con aplicación específica (ASIC) esto significa que están creados para calcular algoritmos SAH-256.
+
+![Un equipo ASIC para minar bitcoins - ANTMINER S7 BATCH 1](/static/images/content/2023/mineria-bitcoins-ethereum-nube/s7.jpg)
+_Un equipo ASIC para minar bitcoins - ANTMINER S7 BATCH 1_
+
+Por altos costos de equipos fue descartada la idea de usarlos, el problema es que los compra y hasta que llegue a mi país y mientras generan se llega a recuperar la inversión en unos años.
+
+## Minar en la nube:
+
+La otra opción y la mas interesante era comprar el servicio de minar en la nube, tu compras una velocidad de minado (kh/s, mh/s, gh/s, th/s y tal vez hasta ph/s) por un único pago de por vida, cosa que no es tan cierto ya que se seguirá minando hasta que sea rentable y te saben cobrar una comisión por día para el mantenimiento y el consumo de luz proporcional al poder de minado comprado. Para mi **_este modelo de minar en la nube es el nuevo banco de bitcoins_** ya que tu pones tu plata para que una empresa compre equipos y se encargue del mantenimiento y ellos te entrega una parte de la ganancia. Al igual que un banco tu entregas tu plata ellos realizan algo con tu plata y te la devuelve con una pequeña ganancia, aquí tu pones tu plata para que mines y existe una gran oportunidad de ganar.
+
+![Minado en la nube](/static/images/content/2023/mineria-bitcoins-ethereum-nube/bitcoin-cloud-backgroud.jpg)
+
+Hay que recordar que existe en las 3 opciones de perder tu dinero, porque tu hardware quedo obsoleto, por daño del mismo o porque el valor de las criptomonedas bajo o perdió valor. Esperemos que las monedas (sobretodo las que estoy minado) no pierdan valor y las usemos para que se fortalezcan.
+
+Una vez decidido en minar en la nube necesitaba escoger un proveedor, entre los mas conocidos son:
+
+- Genesis mining
+- Eobot
+- [Hashflare](https://hashflare.io/r/73703CD)
+- Coindesk
+- Cex.io
+
+Cada uno tiene sus ventajas y desventajas, deberían revisar los diferentes planes y condiciones, no siempre existe un ganado el precio por el poder de minado varia mucho y también es de gustos. Personalmente yo escogí a [Hashflare](https://hashflare.io/r/73703CD).
+
+En Hashflare.io se puede minar bitcoins y ethereum, pero las bitcoins se pueden minar de dos formas, vamos hablar de cada una de las formas y monedas.
+
+## Bitcoins
+
+### Sha-256
+
+Para minar bloques de bitcoins se lo realiza con el [SHA-256](https://es.wikipedia.org/wiki/SHA-2) que es un algoritmo de longitud definida y de tipo clave pública con clave privada. Para calcular este algoritmo se necesita mucho poder y es muy lento, las CPU calculan de una forma muy limitada por eso se utilizan las GPU que pueden realizar mucho mas rápido este calculo o ASIC. Justo cuando ingresaba a minar en la nube bajo increíblemente el precio, yo solo compre un poco para probar pero se dice que puede bajar el rendimiento mas rápido que SCRYPT. Si compras este poder vas a minar bitcoins y te pagaran con ellas.
+
+Yo recomendaría en este momento comprar sha-256 ahorita por su bajo costo pero su rendimiento también baja rápidamente. Aquí les dejo mis estadísticas de 10Gh/s que me costaron 0.00257857 Btc (Si, lo compre con bitcoins) o $1,60 cada 10Gh/s
+
+![Sha-256 minado](/static/images/content/2023/mineria-bitcoins-ethereum-nube/Screen-Shot-2016-06-27-at-12.06.25-AM.png)
+
+### Scrypt
+
+Los scrypt siempre se minan dentro de una pool, lo que se realiza es minar una moneda de menor dificultad como litecoins, Anoncoin, DigitalCoin entre otras monedas. Estas monedas necesitan menor capacidad de procesamiento y puedes minarlas mas fáciles, la pool se encarga de cambiar esas monedas y pagarte en BTC. Actualmente el precio de los Scrypt subió a $9.90 1Mh/s. Claro si comparamos con sha256 vemos 1Gh/s vs 1Mh/s y con ese precio es irrazonable comprarlo, pero como les dije minas 1Mh/s monedas mucho mas faciles y te pagan en btc y ganas aproximadamente lo mismo y hasta un poco más. A largo plazo Scrypt es más rentable que sha-256 (hasta el momento).
+
+![Minado de Scrypt](/static/images/content/2023/mineria-bitcoins-ethereum-nube/Screen-Shot-2016-06-27-at-12.06.47-AM.png)
+
+### Ethereum
+
+Es una moneda relativamente nueva, tiene desde finales del 2015 en versiones beta y desde el 2016 de forma estable. El 17 de junio del 2016 se encontró una vulnerabilidad, donde se paralizo todas las transacciones por aproximadamente un día. La moneda esta creciendo de forma acelerad, parece en parte que son sus propios creadores que la han impulsado y la hacen crecer pero tiene una ventaja contra la BTC es que se realizan contratos inteligentes, esto significa puedes crear un contrato y se cobra como si fuera un servicio (Prestar servicios de procesamiento de datos, Api-Rest, capacidad de hardware).
+
+Es una moneda que esta intentando competir con la BTC que se autollaman Blockchaing 2.0, con la ayuda de microsoft esta moneda busca un mercado. Esta moneda no tiene mantenimiento diario ya que el servicio se lo contrata por un año, ademas son pocos los lugares donde la minan.
+
+![Ethereum](/static/images/content/2023/mineria-bitcoins-ethereum-nube/Screen-Shot-2016-06-27-at-12.08.20-AM.png)
+
+Es muy interesante minar monedas, no porque te hagas rico (tal vez ganaras el un 50% más lo invertido) si no porque como invertiste dinero estas pendiente a lo que pasan con ellas y eres parte de la comunidad. Es muy interesante como puedes jugar entre las pools para obtener un poco mas de ganancia y como varia el precio día a día, ademas de que aprender como funcionan y pensar que el dinero actual es mucho mas falso que estas monedas.
+
+Te invito a invertir de cualquier forman ya sea minando desde tu casa (por hobbie bien difícil que ganes dinero) o desde la nube, mira las diferencias entre precios, seguridad, fees y confiabilidad entre los diferentes servicios y escoge uno. Si tu me preguntas yo estoy muy feliz con el servicio de hashflare y su servicio a clientes es genial, pero si tu quieres invertir en otra parte haz lo! y cualquier duda puedes preguntarme. Si minas o compras bitcoins (otra forma de obtenerlas) y no sabes en que gastarlas me escribes y te vendo un desayuno en mi casa o un café por unas centésimas de BTC.
+
+Te dejo el link [aquí](https://hashflare.io/r/73703CD) si inviertes invertir en hashflare, pero si no quieres espero que algún momento compres unas criptomonedas o las mines! Anímate, esta va ser la nueva moneda algún día.

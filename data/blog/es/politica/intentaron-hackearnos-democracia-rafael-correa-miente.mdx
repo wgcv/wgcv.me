@@ -1,0 +1,73 @@
+---
+title: '¿Intentaron hackearnos la democracia? – Rafael Correa miente'
+date: '2017-04-07'
+tags: ['política', 'español']
+draft: false
+summary: 'La elección presidencial en Ecuador enfrentó críticas por un sistema web deficiente del CNE y posibles ataques DDoS. Se cuestiona la transparencia y la preparación ante la alta demanda.'
+---
+
+Actualmente, Ecuador vive una polémica elección presidencial, con una poca credibilidad de parte del país sobre los resultados por parte del CNE, pero con un gran historial de prepotencias, mentiras y posibles corrupciones del movimiento Alianza País y del presidente actual Rafael Correa Delgado. En los últimos 10 años existen infinidad de errores de buena fe como el mismo los llama, pero más actual puede incluir la democracia del Ecuador.
+
+Las elecciones de la primera vuelta electoral fueron muy cuestionadas por algunos ecuatorianos, donde se estrenaba un nuevo sistema informático por parte del CNE, del cual muchos se preguntaron sobre su transparencia y si cumplía las auditorías necesarias. Pero no analizaremos esos puntos que no nos compete a nosotros, sino a los entes reguladores del Estado, y a los ecuatorianos exigir las garantías necesarias.
+
+El día 2 de abril del 2017 empezaron las elecciones de la segunda vuelta en el Ecuador hasta las 17h00. Luego de esto se procedió a cargar dicha información al sistema de conteo adquirido por el CNE. Aquí analizaremos la plataforma web, misma que estuvo disponible para los usuarios y una gran mentira que les aseguro que ninguna ley va a penalizar.
+
+![Esta es la plataforma web donde fue entregada la información minuto a minuto de las elecciones presidenciales 2017 o así debió ser.](/static/images/content/2023/intentaron-hackearnos-democracia-rafael-correa-miente/Screen-Shot-2017-04-07-at-12.52.36-AM.png)
+
+Un sitio web con un diseño de interfaz con un retraso de 5 años tecnológico. A partir del 2008 se planteaba realizar sitios webs que se puedan consumir con igual facilidad desde un móvil y desde una computadora, pero notamos que es muy poco amigable el sitio web desde un dispositivo móvil para la primera vuelta. En la segunda, solucionaron este problema (a medias porque el mapa seguía sin visualizarse correctamente). En cuestión de interacción con el usuario, los archivos estáticos que se cargan asincrónicamente de ser posible deberían cargarse al final, para darle una apariencia de mayor fluidez al usuario. Pero al parecer, los desarrolladores anticuados prefirieron agregar todo esto en la etiqueta HEAD al inicio de la página, lo que hará que la página aparente cargar más lento. Para finalizar, el diseño no entiendo la razón porque usaron en la primera vuelta botones en una tonalidad gris y en la segunda una tonalidad azulada. Como adicional, no siguieron con el estándar actual de la web HTML5.
+
+![Captura de pantalla](/static/images/content/2023/intentaron-hackearnos-democracia-rafael-correa-miente/Screen-Shot-2017-04-07-at-1.12.15-AM.png)
+
+Pero el CNE debe dar una plataforma para observar los datos, ¿basta con eso? Una plataforma correcta sería la que permita utilizar esos datos para ver un análisis de la tendencia, poder explorar y aprovechar a su totalidad. Esto nunca pasaría con el sistema ofrecido, un sistema cerrado donde nadie puede explotar al 100% una información pública. Esperemos que para las próximas elecciones nos den un servicio para poder consultar, un API REST donde cualquier programador pueda consultar la información en bruto y en un lenguaje que sea posible interpretarlo por una máquina, dando un abanico de oportunidades para analizar las elecciones. Esta no fuera la única ventaja, también permitiría repartir la carga en diferentes partes para no congestionar un único servicio, pero esto hablaremos más adelante.
+
+El haber utilizado un captcha, en este caso el que provee Google, es una decisión correcta porque deberíamos controlar las solicitudes en una plataforma de presentación, pero debió ser acompañada por el API como dijimos arriba, que consume menos recursos y nos puede dar datos a una mayor demanda. Además de haber utilizado Cloudflare fue una excelente decisión, esto es un servicio que oculta nuestra dirección IP real (la del servidor) y nos da otra de la compañía Cloudflare que en caso de un ataque DDoS (Denegación de Servicio) la absorberá y no el servidor.
+
+No tocaré el tema del lenguaje de programación, pienso que cada uno tiene su pro y su contra pero todos terminan funcionando de una forma correcta si se sabe implementar un sitio. Si no [Stack Overflow](https://es.stackoverflow.com) que usa el mismo lenguaje fuera un dolor de cabeza y es un excelente sitio, pero no hay que negar que es un framework pesado ASP .NET.
+
+Esta plataforma web era una plataforma crítica, que representaba la democracia y se tenía conocimiento previo de cuántos usuarios la consultarían. Existen estadísticas de elecciones pasadas, de la primera vuelta y de los ecuatorianos con acceso a internet, entonces sería una irresponsabilidad no haber hecho un estudio previo para prepararse y realizar pruebas con software de auditorías y rendimientos para sitios webs. Entonces, ¿qué pasó? ¿Por qué el sistema colapsó por 20 minutos?
+
+> "Lo que hubo es la caída durante 18 minutos de la PÁGINA WEB del CNE -no del SISTEMA-, por ataques de hackers desde EEUU" - [@MashiRafael](https://twitter.com/MashiRafael/status/850016432024846336)
+
+Es claro que colapsó por saturación de un servicio crítico, que no solo informaba sino que daba una imagen para una elección transparente, y el servicio estuvo fuera de línea por 18 minutos; además, en esos minutos la tendencia cambió para el candidato oficialista, el candidato que tiene todos los poderes del Ecuador.
+
+Pero analicemos la estupidez que dice el presidente del Ecuador, una estupidez que dejarán impune. Hubo una caída durante 18 minutos de la página web del CNE, eso es correcto y todos nos dimos cuenta, pero
+
+**¿Un ataque de hackers?**
+
+Un ataque de hacker consiste en querer violentar, ingresar o modificar un sistema informático de diferentes maneras. Entre esas existen ataques silenciosos que intentan ingresar y mantenerse en un sistema para extraer información sobre una empresa o persona, como los troyanos, para poder hacer modificaciones como Stuxnet a los ventiladores de los reactores nucleares. También existe la posibilidad de controlar computadoras de personas cotidianas para luego usarlas como máquinas zombies y sacar provecho económico o ataques a otros sitios. Para saber si existen filtraciones informáticas en una empresa u organización es sencillo realizar auditorías y controles para detectarlos, sobre todo si es software comercial. A veces es más complicado con software privado y especializado por gobiernos para espionaje, pero es muy complicado llegar a identificar quién es el responsable del ataque, aún más si es de un gobierno en específico porque se debe hacer un análisis, ingeniería inversa y seguimiento de las herramientas que usaron, cosa que no demora ni 3 días, ni 7 días; es un proceso largo y de investigación como de rastreo para encontrar un posible culpable.
+
+Entonces, por la poca información que da este sujeto y por declaraciones de otros medios podemos concluir que el ataque no fue una filtración, sino que tenía como interés saturar el servicio para que no estuviera disponible y crear "caos y no aceptar una derrota". Deberíamos estar hablando de un ataque de Denegación de Servicios (DDoS, por sus siglas en inglés). Los ataques de DDoS son miles de conexiones simultáneas, donde saturan el ancho de banda (normalmente mayores de 10Gbps, pero depende del objetivo del ataque). Estos ataques no son de una computadora, ni de cientos, sino de redes de computadoras intentando acceder al mismo sitio para saturar el servidor HTTP, el ancho de banda o el servidor DNS hasta dejarlo inhabilitado. Estos ataques normalmente tienen dos orígenes: humanos, que son personas que desean expresarse contra un organismo (normalmente lo usan Anonymous) realizando ataques directamente desde una PC de la cual son los dueños o servidores; pero existe otro método que es más común y también usado por Anonymous y otros grupos, cuando los ataques son originados por computadoras zombies. Son computadoras que no saben que están atacando y que muchas veces creemos que tenemos el control de ellas (los usuarios cotidianos), pero por debajo de los procesos normales están corriendo malwares. Entre las diferentes cosas que podrían realizar es solicitar varias veces un sitio web y ser parte de un ataque global.
+
+Normalmente, estos ataques no se realizan con una o dos computadoras, ni siquiera con un país o dos, sino con miles, millones de dispositivos conectados al internet (actualmente existe la posibilidad de infectar tu refrigeradora, televisor, alarma de la casa, cualquier dispositivo que tenga acceso al internet). Esto crea una botnet, que son redes de computadoras infectadas y están a la espera de recibir órdenes para realizar una tarea (no solo ataques, puede ser clics a publicidad, minar monedas, etc.). Esto genera un ataque fuerte de DDoS y es tan disperso que no se puede justificar el origen de los ataques. Veamos un mapa como estos ataques cruzan el mundo, en este caso, la mayoría de ataques son de origen chino y atacan a USA.
+
+![Mapa de ataques](/static/images/content/2023/intentaron-hackearnos-democracia-rafael-correa-miente/hero_Intentaron-hackearnos-democracia-rafael-correa-miente.png)
+
+Entonces, es poco normal acusar a un país sobre un ataque sin una investigación, solo por tener una forma de gobernar que no es de su agrado.
+
+**¿Pero realmente fue un ataque de DDoS?**
+
+Yo personalmente no creo que existió un ataque para el sitio del CNE. Actualmente he solicitado a NORSE de ser posible facilite el historial de los ataques entre las horas de las elecciones y estoy a la espera de dicha información. Ademas de esto, la página de CNE tenia ciertas medidas contra estos ataques, como haber contratado <a href="http://cloudflare.com">cloudflare</a>, haber limitado las consultas por CAPTCHA y por haber hecho un balance para conexiones locales (Dentro del Ecuador) y fuera del Ecuador (Porque para dentro del ecuador el sitio del CNE estaba fuera de servicio, no el de los resultados sino página principal e internacionalmente por VPN no lo estaba). Existieron medidas implementadas para protegerse de ataques y debería haber un historial sobre las conexiones, mi pregunta es donde se encuentra esa información? Es muy fácil decir NOS ATACARON ! Pero demuestren un gráfico de conexiones y del origen pero como tienen todos los medios y poderes...
+
+No se descarta la posibilidad que hubo un ataque, tampoco la de haber existido un fraude pero eso no se podrían concluir con datos públicos ya que son dos sistemas uno el de conteo y otra la plataforma web, del cual es muy celoso contra las auditorias y dicen que existe el código libre pero brilla por su ausencia.
+
+Personalmente me parece que fue más un descuido de parte de las instituciones que controlan el país y la democracia, claro hablo del gobierno y CNE, que no hicieron un correcto análisis previo de la demanda que iba a tener el sitio web, ni haber realizado un sitio con la capacidad de soportar el tráfico suficiente como la posibilidad de uno poder tratar dicha información pública. Esto ha generado un grave problema, desconfianza sobre los resultados y un olor a fraude electoral, que fue muy sencillo evitarlo con conocimiento e implementar correctamente la tecnología.
+
+<blockquote>
+
+Si existen marchas y dudas sobre el proceso democrático el culpable es el mismo gobierno y CNE!
+
+</blockquote>
+<strong>¿Se pudo haber evitado?</strong>
+
+Claro, se pudo primer lugar haber utilizado una tecnología rápida, pero la verdadera solución hubiera sido utilizar la tecnología que tenían correctamente,  haber usado un servidor para los archivos estáticos (JS, CSS, Imágenes) y haber usado HTML de una forma correcta, cargando los archivos sincrónicos al final, cosa que ninguna de las dos se utilizó.  Haber realizado un página orientada a servicios, donde se separa la forma de mostrar la información con el servicio y hasta hubieran podido crear una interfaz con una apariencia más en vivo con actualizaciones automáticas refrescando únicamente lo que se modifica (Tecnologías como AJAX, Sockets, etc), esto haría bajar drásticamente las solicitudes de archivos estáticos y evitarían solicitudes repetitivamente de parte de los usuarios, bajando la demanda del sitio.
+
+<strong>¿Es suficiente estas medidas?</strong>
+
+Claro que no! Estas son las mínimas para haber creado un sistema informático web, al ser un proceso crítico y la imagen de la transparencia de la democracia del Ecuador lo que tuvieron que haber hecho es prepararse de una forma correcta y garantizando mostrar la información en tiempo real, pero de forma optima, entonces ¿Qué es realmente en tiempo real? ¿Cuándo hablamos de miles de conexiones, millones de conexiones podemos hablar de tiempo real? Si rotundamente si, pero se debería invertir en servidores y recursos físicos que tiene costos pero en la actualidad podemos alquilar estos servicios en la nube, realizar réplicas, tener una red de servidores, crear un balance a nivel de DNS, balancear cargas de archivos estáticos, distribuir la información en diferentes servidores BD o replicar la tecnología que existe con retrasos casi nulos.  Pero siempre puede ser mayor el gasto para garantizar pocos segundos de tiempo REAL, entonces pudieron haber aplicado tecnologías de CACHE, que da una apariencia de tiempo real y garantiza la información rápida, pudieron haber separado procesos de actualización en sub-rutinas y no bajo la demanda del usuario, garantizar información rápida pero sin saturar los servicios (Pocos segundos) pero hubieran dado una apariencia de transparencia.
+El culpable de la incertidumbre y dudas que los ecuatorianos tienen, son responsabilidad de las instituciones que debieron haber preparado un sistema informático con las demandas que iba a tener, no los representantes de un partido político porque yo dejé de creer en la democracia del Ecuador, yo no creo en estas elecciones. Aún más con la mentira del primer mandatario, diciendo que fue hackeada la página, no nos mientas que Ecuador no es pendejo.
+
+<strong>
+  Creo que los ecuatorianos tienen el derecho de que se den las garantías suficientes para aceptar
+   dicho resultados.
+</strong>
+&nbsp;

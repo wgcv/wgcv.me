@@ -1,0 +1,113 @@
+---
+title: 'A-A-ATM para el taxi! El problema de Cabify'
+date: '2017-05-15'
+tags: ['tech', 'español']
+draft: false
+summary: 'Desde 2009, Uber domina el mercado de transporte, pero no es la única opción. He usado y analizado varias plataformas desde 2014, incluyendo Easy Taxi y Cabify, destacando la alta calidad y el servicio excepcional de Cabify frente a taxis formales e informales en Guayaquil.'
+---
+
+Uber el dueño del mercado, un símbolo de la tecnología con una cotización en la bolsa de 62 instagrams en el 2016 ([62.000 Millones de dólares](http://www.lanacion.com.ar/1885419-uber-vale-nueve-veces-mas-que-ypf)), donde ha llegado más de [334 ciudades de 59 países](http://www.eltiempo.com/datos/como-esta-uber-en-el-mundo-63460) desde el 2009, pero esta no es la única empresa que brinda este servicio a nivel mundial.
+
+Yo llevo desde el 2014 usando, probando y analizando el servicio de taxis por tecnología (Créanme, es una especie de pasatiempo) hasta llegar a desarrollar [una plataforma](https://github.com/wgcv/amiGO) para lo mismo en ASP.NET.
+
+Uno de los primeros fue Easy Taxi, que empezó en StartUp weekend de Río de Janeiro y en pocos años llegó a Ecuador, un servicio que trabajaba únicamente con taxis legales, con grandes incentivos como sorteos de artefactos electrónicos, alquiler de canchas de football, capacitaciones y más para los chóferes, y  los clientes tenían servicios novedosos como en ciertas unidades karaoke, consolas de juegos y libros que podías usarlos en el viaje estos últimos te los podías llevar. El Co-fundador de Easy Taxi tenía la idea clara, mejorar la calidad del trabajo de los taxistas para que ellos mejoren la calidad de servicio, esto fue excelente un tiempo; luego la empresa cambió los costos, teniendo demasiadas unidades, con algunos taxistas no tan felices. Actualmente sigue operando dentro de Guayaquil y tiene la ventaja de que siempre tienen unidades cercas, además se fusionaron con [Tappsi](https://tappsi.co/) que brindaba los mismos servicios. ![](/static/images/content/2023/atm-para-taxi-problema-cabify/Imagen-Tarifario-in-app.jpg)
+
+### ¿Pero como funcionan estas empresas?
+
+Es un servicio que une el concepto de  B2C y B2B, une un mercado que ofrece servicio de transporte con un cliente que necesita movilizarse de forma inmediata o reservando, uno de los problemas es que no se permite pagos en efectivo en muchas de estas empresas. Existen varios modelos de negocios entre la infinidad de empresas que ofrecen este servicio, pero básicamente es cobrar una comisión fija y a veces también porcentual del costo de cada carrera que sea mediante la aplicación, puede ser al cliente o al taxista. La diferencia de servicio entre los taxis comunes y uno que sea solicitado por estas empresas son los niveles de calidad del servicio, precios, tipos de vehículos.  Esta tecnología es increíble, cambió por completo la forma de transportarnos.
+
+En muchos países hay leyes que limitan el servicio de transporte de pasajeros a ciertos gremios y condiciones como en Estados unidos, Colombia, Perú, México y Ecuador. Lo cual ha hecho que estas compañías siempre sean polémicas  y tengan que llegar a acuerdos políticos. ![](/static/images/content/2023/atm-para-taxi-problema-cabify/uberselfdrivingcar.jpeg)
+
+### Si tiene un buen servicio, ¿Cuál es el problema?
+
+El problema es que ofrecen un servicio de calidad con un costo justo, no es un problema único en Ecuador pero hablemos un poco sobre lo qué está pasando. En Ecuador existen culturas muy diferentes para los medios de transportes, en ciertos sectores los taxis son camionetas, otras son trici-motos y otros son taxis amarillos e informales. Aunque es verdad no podríamos decir TODOS los taxis son de una forma, si podré realizar una segmentación que incluiría a la mayoría que ofrecen este servicio, algunos pocos salen del patrón (Tal vez esos que llegan a escoger hacia donde van o no).
+
+Vale la pena primero hablar un poco sobre las calles de Guayaquil, la ciudad en la cual está pasando el problema con la Agencia de Tránsito Municipal. Manejar en Guayaquil es un caos, es un Wild West. Ecuador es el 5 peor lugar para manejar en el mundo según [WAZE](https://waze.another.co/waze-revela-resultados-del-indice-global-de-satisfaccion-del-conductor) , pero esto empeora dentro de la ciudad a la que hago referencia, desde hace unos 3 años son contadas las vías a las que les pintan señalética horizontal (Simplemente al parecer dijeron ya no son necesarias), no existen líneas que dividan carriles en la mayoría de las calles, el servicio de mantenimiento preventivo/correctivo en los semáforos es pésimo, pueden pasar meses sin arreglarlos. Si manejas más de 20 minutos es casi seguro que te encontrarás con uno o varios baches en la calle, pero como si la infraestructura vial no fuera suficientemente mala, los conductores tienen la peor cultura vial. Casi no existe un respeto en las vías públicas, la calle es tierra de nadie, los conductores se estacionan donde sea, hacerlo en doble fila es casi  normal, quedarse en la mitad del semáforo es un símbolo de _ser sabido_ y por ende el mejor conductor. Créanme que si quieren manejar como GTA pueden venir a Guayaquil, sin hablar que los peatones no conocen los pasos cebras, ni los pasos peatonales. No existe una cultura vial y a nadie parece interesarle promoverla.
+
+Pero íbamos hablar de los taxis:
+
+#### Taxi formal:
+
+Chofer que debe usar Guayabera blanca, casi amarillenta y sin alguno de los botones porque los perdió en el camino como uniforme, pero para ser chofer debes cumplir ciertos requisitos como:
+
+- Que te guste escuchar música "popular" a todo volumen
+  - Deben ponerle mala cara si el cliente solicita que cambie o baje el volumen
+- Deben gustarte los chistes groseros y debes tener unos 20 piropos sexistas para sus clientes
+- Contar con un amplio vocabulario para insultar en las calles, acompañado del claxon cada que alguien se interpone en tu camino
+- Una unidad con una decoración algo depravado ya sea:
+  - Muñecos con polvos
+  - Zapatos de niños o muñecos colgando del retrovisor
+  - Diario la Extra o alguna mujer semidesnuda junto a la estampa de algún santo
+  - Puedes tener también una unidad sucia si no quieres decorarla
+- Debes poder cambiarte de 3 a 4 carriles en menos de 10 metros para poder coger pasajeros, no importa el resto de conductores si lanzas el carro van a parar
+- No deben usar espacios de estacionamiento, ni calles libres. Solo se pueden coger pasajeros en Av. y Calles congestionadas, así pueden congestionar el tráfico, si un agente de tránsito les para deben responder "Estoy trabajando, déjeme trabajar"
+- No deben ceder el paso ni a peatones, peor a vehículos, los taxis deben tener prioridad
+  - A vehículos de emergencias se puede ceder el paso luego de un momento de impedirlo, sin olvidar que ellos son quienes deben seguir al vehículo de emergencia a pesar de no dirigirse al mismo destino.
+
+Créanme que la experiencia es pésima, el precio de una carrera depende de muchos factores: la hora, el tráfico, la forma de vestirse, la forma de hablar, si no aparentas ser de la zona te cobran mucho más. No existe un cobro por taxímetro, aunque la ley lo obliga, Artículo 113 del reglamento de la Ley de Tránsito y Transporte Terrestre, parece que a la ATM no le interesa hacer controles, ni generar conciencia.
+
+#### Taxi informal:
+
+Para ser chofer de estos taxis necesitas menos requerimientos que los primeros, pero entras más al perfil si:
+
+- Usas shorts, camisetas sin mangas y si no tienes una cara confiable
+- Debes tener un vocabulario muy vulgar
+- Debes poder morbosear a las personas en la calle mientras manejas
+- Experto en ir detrás de los taxis formales haciendo luces
+- Debes coger todas las carreras, mientras más tráfico generan mejor
+- No dejes pasar a nadie y debes tirar el carro, acercarte bastante a los otros carros
+- No respetes a los peatones
+
+Normalmente estos taxis cobran más barato, pero no tienes ninguna garantía que sean seguros, es más no tienes garantía de que sean taxis. Normalmente son expertos en provocar otros carros y hacer tráfico pero dan un servicio un poco mejor al cliente.
+
+### ¿Cual es la diferencia?
+
+La diferencia entre ellos y estos servicios es la calidad y la garantía de un excelente servicio. Hablemos del mejor servicio que he recibido hasta el momento. ![](/static/images/content/2023/atm-para-taxi-problema-cabify/Cabify-1.png)
+
+### Cabify
+
+Tiene comienzo en España y muy popular a nivel de América Latina, es una empresa  que ingresa de una forma muy fuerte al mercado con grandes promociones y publicidad que rápidamente gana popularidad, gracias a su excelente servicio. Cuando hablo de mi servicio es porque viajar con ellos es un placer. He probado servicios como Uber y Lyft en Estados Unidos, no llegan a la calidad de Cabify. Lyft es genial por su precio y sus conductores normalmente son muy amigables pero no es tan alto nivel como Uber, los vehículos son geniales, el trato excelente, pero Cabify les gana, por qué? ![](/static/images/content/2023/atm-para-taxi-problema-cabify/lyft-car-requirements.jpg) Había una época que los carros de Lyft te llegaban con un bigote rosado. Simplemente Cabify es genial, te intentaré contar la experiencia que tuve desde las primeras semanas cuando habían no más de 5 unidades en Guayaquil, hasta el día de ayer que tome una unidad de esta empresa. Vale recalcar que intento comparar un servicio de otro país con Ecuador y aun así les gana.
+
+#### Chofer de Cabify
+
+Después de varias conversaciones con muchos choferes, puedo ver que no es fácil ingresar a cabify, les toman un examen para tratar a su cliente y estándares de calidad; pero no solo eso,  evalúan su capacidad de concentración en el examen de más de 1 hora.
+
+- Siempre bien vestidos, con corbata (Personalmente no me molesta la forma de vestir, solo que no parezcan pillos)
+- La unidad siempre está limpia por fuera y por dentro
+  - Podrian mejorar teniendo menos botellas de agua a la vista
+- Te brindan agua y caramelos, excelente forma de acercarte con el cliente
+- Estación de radio a tu elección (Yo viajo con la radio apagada)
+- Aire a tu elección (Normalmente lo suficientemente frío)
+- Apertura de puertas al llegar y dejar
+  - Esto era increíble pero luego fue desapareciendo, son muy pocas las unidades que lo hacen
+- El chofer se limita mucho en hablar y eso es excelente
+  - Si tu deseas entablar una conversación hablan temas muy interesantes
+- Normalmente respetan las leyes de tránsito y es algo increíble dan paso a los peatones y el resto de carros
+  - Es increíble como pasan 8 horas manejando en un infierno y ceden el paso
+  - Hay veces que se han pasado rojas pero si les dices algo lo toman bien
+- Te cobran por recorrido óptimo, es extremadamente justo
+  - Una vez no se grabó la carrera correctamente y me cobraron muy poco, cosa que le dije al chofer que solucione pero parece que no lo dejaron
+
+¿Por qué es mejor? Primero por haber podido lograr eso en un país donde todos se creen dueños de todo y creen que es un favor hacer tu trabajo; segundo porque tienen pequeños plus como el agua, caramelos y promociones para sus clientes, los carros son muy decentes. Lo único negativo es el tiempo de espera, muchas veces hay pocas unidades cercas.
+
+### ¿Solución?
+
+Simplemente deberíamos dejar que los mercados se regulen por ellos mismo, yo no veo una razón por la que se deberá interferir para prohibir un servicio. Es más no deberían tener cara para obligar a Cabify terminar las operaciones en Guayaquil si no son capaces ni de controlar el cobro del taxi "formal". Deberían preocuparse primero por otros males como la falta de respeto hacia las señales de tránsito y tolerancia entre conductores.
+
+Podemos ver que realmente aquí hay un interés monetario, mas no para los ciudadanos, donde alegan que no pueden dejar sin trabajo a 12 000 personas que son taxis formales, pero esto no es de alcahuetear a unos, es mejorar como sociedad cosa que ellos no tienen la intención. Es simple, si tu no puedes competir no puedes querer ganar en esa área, así que mejoras o mueres. Además la tecnología no desplaza empleo, ni hace más pobre a las poblaciones; simplemente obliga a mejorar sus capacidades y conocimiento para tener mejores oportunidades, claro está quien no desea mejorar no va poder incluirse. Personalmente espero que los taxistas formales no pasen a ser parte de un servicio tan excelente de la noche a la mañana por mantener un negocio, si no que exista un proceso normal que ingresen sin dañar la calidad de una empresa, o mejoren ellos por iniciativa propia y creen un mercado más competitivo como Uber, Lyft y los taxis tradicionales.
+
+Pero si la ATM no quiere dejarlos operar que se debería hacer? Fácil, machine learning es la solución se deberá analizar las carreras solicitadas y les aseguro que va haber un patrón en el cual no podrán negar el servicio para los controles, porque no? La empresa más grande del mundo de este servicio controla todo y cada uno de sus datos para predecir qué va a pasar, una solución que amaría implementarla. Esperemos que en dos años la ATM si deje usar carros autónomos o también vamos a prohibirlos?  Porque en 2 años seguramente estarán empezando a ser más comunes de lo que se imaginan.
+
+### ¿Quieres probarlo?
+
+Te dejo un link para que tengas un descuento y puedas usarlo, no te arrepentiras:
+
+##### Ecuador
+
+[**Cabify** $8 dólares cuando solicites tu primera carrera](https://cabify.com/i/gustavoc509) [![](/static/images/content/2023/atm-para-taxi-problema-cabify/Cabify-logo-purple.png)](https://cabify.com/i/gustavoc509)
+
+#### Fuera de Ecuador
+
+[**Lyft** $10 a partir de la primera carrera](https://lyft.com/id/GUSTAVO292337) [![](/static/images/content/2023/atm-para-taxi-problema-cabify/Lyft_logo.svg_.png)](https://lyft.com/id/GUSTAVO292337)
+
+[Uber $15 a partir tu primer uso](https://www.uber.com/invite/ubegz65yue) [![](/static/images/content/2023/atm-para-taxi-problema-cabify/uber_logobit_digital_white.jpg)](https://www.uber.com/invite/ubegz65yue)
