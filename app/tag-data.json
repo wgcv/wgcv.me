@@ -1,12 +1,13 @@
 {
   "3d-printer": 1,
-  "tech": 1,
-  "english": 1,
+  "tech": 4,
+  "english": 2,
   "tensorflow": 1,
   "machine-learning": 2,
   "software": 2,
-  "español": 4,
+  "español": 8,
   "pytorch": 1,
+  "fuego": 2,
   "crypto": 2,
   "blockchain": 2,
   "bitcoin": 2
