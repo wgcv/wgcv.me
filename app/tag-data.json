@@ -1,1 +1,13 @@
-{ "3d-printer": 1, "tech": 1, "tensorflow": 1, "machine-learning": 2, "software": 2, "pytorch": 1 }
+{
+  "3d-printer": 1,
+  "tech": 1,
+  "english": 1,
+  "tensorflow": 1,
+  "machine-learning": 2,
+  "software": 2,
+  "español": 4,
+  "pytorch": 1,
+  "crypto": 2,
+  "blockchain": 2,
+  "bitcoin": 2
+}

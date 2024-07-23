@@ -43,9 +43,7 @@ const BmiCalculator: React.FC = () => {
 
   return (
     <>
-      <h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-        Calculate e-steps
-      </h1>
+      <h1>Calculate e-steps</h1>
       <Image
         src="/static/images/content/2023/e-steps-calculation.jpg" // Path to the image in the public directory
         alt="How calculcate"
