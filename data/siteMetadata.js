@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'WGCV Blog',
+  title: 'WGCV Blog - Gustavo Cevallos',
   author: 'Gustavo Cevallos',
   headerTitle: 'WGCV.ME',
   description:

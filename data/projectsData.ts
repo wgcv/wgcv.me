@@ -29,7 +29,7 @@ const projectsData: Project[] = [
     2019 mayoral candidates. Implemented an LSTM model for sentiment classification, 
     achieving 85% accuracy in political tweets analysis.`,
     imgSrc: '/static/images/projects/lstm_classification_mayor_2019.jpg',
-    href: 'https://huggingface.co/spaces/wgcv/Tidy-Tabs-Titles',
+    href: '/blog/es/artificial-intelligent/analisis-de-redes-sociales-para-alcalde-de-guayaquil-2019',
   },
 
   {
