@@ -1,0 +1,131 @@
+---
+title: 'Introducción a tensorflow 2.0'
+date: '2019-05-28'
+tags: ['tensorflow', 'machine learning', 'software', 'español']
+draft: false
+summary: 'TensorFlow, lanzado en 2015 por Google, simplifica el desarrollo de redes neuronales con soporte para GPU y diversas plataformas, y su integración con Keras facilita la creación de modelos.'
+---
+
+<p>
+  TensorFlow es una biblioteca de código abierto para
+  <a href="https://wgcv.me/que-es-inteligencia-artificial/"> machine learning</a>, desarollado por
+  Google y liberado en noviembre del 2015.{' '}
+</p>
+
+<h3>
+  ¿Pero qué ventajas tenemos al usar un Framework de Deeplearning comparado con desarrollar nuestras
+  redes neuronales desde cero?{' '}
+</h3>
+
+<p>
+  Desarrollar una red neuronal desde cero no es difícil pero conlleva tiempo en definirla y
+  sobretodo codificar las operaciones de backpropagation, sobretodo la implementación de las
+  derivadas. En vez de usar nuestro tiempo para crear la rueda, ¿por qué no lo usamos para buscar
+  mejores parámetros para tener la mejor rueda?
+</p>
+
+<p>Las ventajas más importantes son:</p>
+
+<ul>
+  <li>No tener que implementar desde cero los conceptos báiscos.</li>
+  <li> Poder iterar de una forma más rápida con diferentes modelos e hiperparámetros.</li>
+  <li> No tener que definir la estructura de la Red neuronal y sus derivadas (Dataflow Graph).</li>
+  <li> Soporte para GPU.</li>
+  <li> Soporte de paralelismo y ejecución distribuida.</li>
+  <li>
+    Soporte para multiples dispositivos y lenguajes de programación (IoT, embebidos y hasta el
+    navegador)
+  </li>
+</ul>
+
+<h3>TensorFlow y Keras</h3>
+
+![TF Love Keras](/static/images/content/2023/tflovekeras.png)
+
+<p>
+  Nunca había sido tan fácil de crear un modelo de deeplearning hasta ahora, TensorFlow decidió
+  incluir al Framework Keras dentro se su core, ahora importando{' '}
+  <code>import tensorflow as tf</code> y podemos acceder a keras con <code>tf.keras</code>. Esto es
+  increíble, primero porque estandariza el uso del mismo y lo segundo lo vuelve mucho más pythonico.
+</p>
+
+<p>
+  También si no queremos crear nuestro propio modelo, podemos usar{' '}
+  <a href="https://www.tensorflow.org/hub/">TensorFlow Hub</a> que es una librería aparte de TF que
+  permite reusar muy fácil modelos que han sido probados y muy conocidos para resolver tus problemas
+  de ML.
+</p>
+
+<h3>Soporte en otras plataformas</h3>
+
+<p>
+  TensorFlow siempre ha estado interesado en proveer formas de exportar tu modelo a otros lenguajes
+  y plataformas, siendo muy fácil de llevarlo a producción. En esta versión refuerzan esto con:
+</p>
+
+<p>
+  <a href="https://www.tensorflow.org/tfx/serving/">
+    <strong>TensorFlow Serving</strong>
+  </a>
+  : Permite usar nuestros modelos por protocolos como HTTP/REST y{' '}
+  <a href="https://grpc.io/docs/guides/">gRPC/Protocol Buffers</a>{' '}
+</p>
+
+<p>
+  <strong>
+    <a href="https://www.tensorflow.org/mobile/tflite/">TensorFlow Lite</a>
+  </strong>
+  : Convierte nuestro modelo a un modelo muy ligero y de poco consumo de procesamiento, para usarlo
+  en sistemas operativos de celulares (Android y iOs) y dispositivos embebidos (Como raspberry Pi),
+  además de poder acelerarlo con <a href="https://coral.withgoogle.com/">Coral y Edge TPUs.</a>
+</p>
+
+<p>
+  <a href="https://js.tensorflow.org/">
+    <strong>TensorFlow.js</strong>
+  </a>
+  : TensorFlow para JavaScript, básicamente porque JavaScript está en todas partes, podemos correrlo
+  a nivel del navegador o también del lado del servidor con Node.js, también permite ser entrenado
+  desde el lado del cliente en su propio navegador mejorando la privacidad de los datos porque nunca
+  tendrán que salir del dispositivo del usuario.
+</p>
+
+<h3>Migrar de TF 1.x a 2.0 </h3>
+
+<p>
+  TensorFlow ha cambiado mucho y personalmente no solo cambió, sino que también mejoró sobre todo
+  para los que quieran probarlo por primera vez y que no sea tan intimidante como antes, además si
+  quieres llevar tu modelo a la versión 2.0 puedes usar su{' '}
+  <a href="https://www.tensorflow.org/beta/guide/migration_guide">herramienta de migración</a> que
+  hará la mayor parte de manera automática pero existen ciertas funciones que tienes que migrarlo
+  manualmente.
+</p>
+
+<p></p>
+
+<p>
+  Les recomiendo mucho que prueben TensorFlow 2.0, que actualmente se encuentra en versión beta pero
+  la ventaja es que es bastante amigable, lo que lo hace increíble y google también recomienda que
+  empecemos a probarlo porque será el futuro de esta librería.
+</p>
+
+<h2>¿Cómo empezar con TensorFlow desde cero? </h2>
+
+<p>
+  Les dejo un notebook donde detalla temas básicos de Deeplearning y como empezar con TF 2.0 en
+  español:{' '}
+  <a href="https://colab.research.google.com/github/wgcv/TensorFlow-Taller-2.0/blob/master/Workshop_TF_2_0.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" />
+  </a>
+</p>
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/P7Mjg42HXwM?si=CP9ccB0V69f4UMux"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>

@@ -1,3 +1,113 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="344.5639097744361 330.27819548872174 111.73684210526318 91.21804511278197" width="53.87" height="43.61"><defs><path d="M453.3 331.28L453.3 359.85L388.64 418.5L388.64 388.42L453.3 331.28Z" id="aFZf6T5ED"></path><linearGradient id="gradientb2ThqnP5Op" gradientUnits="userSpaceOnUse" x1="420.97" y1="331.28" x2="420.97" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M410.23 331.28L410.23 359.85L345.56 418.5L345.56 388.42L410.23 331.28Z" id="a9fehgwfM"></path><linearGradient id="gradientk1wNV9Ostb" gradientUnits="userSpaceOnUse" x1="377.89" y1="331.28" x2="377.89" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#aFZf6T5ED" opacity="1" fill="url(#gradientb2ThqnP5Op)"></use></g><g><use xlink:href="#a9fehgwfM" opacity="1" fill="url(#gradientk1wNV9Ostb)"></use></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Blog Logo WGCV</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M138,0 C144.627417,-1.77635684e-15 150,5.372583 150,12 L150.000473,13.0144892 C149.834876,13.0048743 149.668007,13 149.5,13 C144.80558,13 141,16.8055796 141,21.5 C141,26.1944204 144.80558,30 149.5,30 C149.668007,30 149.834876,29.9951257 150.000473,29.9855108 L150.000473,120.014489 C149.834876,120.004874 149.668007,120 149.5,120 C144.80558,120 141,123.80558 141,128.5 C141,133.19442 144.80558,137 149.5,137 C149.668007,137 149.834876,136.995126 150.000473,136.985511 L150,138 C150,144.627417 144.627417,150 138,150 L12,150 C5.372583,150 0,144.627417 0,138 L0.000441111567,136.985513 C4.46192295,136.726485 8,133.026424 8,128.5 C8,123.973576 4.46192295,120.273515 0.000441111567,120.014487 L0.000441111567,29.9855126 C4.46192295,29.7264854 8,26.0264238 8,21.5 C8,16.9735762 4.46192295,13.2735146 0.000441111567,13.0144874 L0,12 C0,5.372583 5.372583,0 12,0 L138,0 Z" id="Combined-Shape" fill="#94E378"></path>
+        <g id="pin-circles" transform="translate(10.000000, 11.250000)">
+            <g id="Group" transform="translate(65.250000, 12.250000) rotate(90.000000) translate(-65.250000, -12.250000) translate(53.000000, -26.750000)">
+                <g id="pin-rect-copy-2" transform="translate(15.000000, 39.000000) rotate(-90.000000) translate(-15.000000, -39.000000) translate(-24.000000, 29.500000)">
+                    <rect id="Rectangle" fill="#D8D8D8" x="3" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#D8D8D8" x="20" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#D8D8D8" x="36" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#D8D8D8" x="53" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#D8D8D8" x="69" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#959CB4" x="50" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-9" fill="#959CB4" x="33" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#959CB4" x="17" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-11" fill="#959CB4" x="0" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#959CB4" x="66" y="6" width="12" height="13" rx="3"></rect>
+                </g>
+                <g id="Group-Copy-3" transform="translate(4.000000, 39.500000) rotate(90.000000) translate(-4.000000, -39.500000) translate(-33.000000, 35.500000)" fill="#7C7C7C">
+                    <circle id="Oval-Copy-7" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-8" cx="19" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-9" cx="36" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-10" cx="53" cy="4" r="4"></circle>
+                    <g id="Oval-Copy-12" transform="translate(66.000000, 0.000000)">
+                        <circle id="Oval-Copy-11" cx="4" cy="4" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(118.250000, 65.250000) rotate(180.000000) translate(-118.250000, -65.250000) translate(106.000000, 26.250000)">
+                <g id="pin-rect-copy-2" transform="translate(15.000000, 39.000000) rotate(-90.000000) translate(-15.000000, -39.000000) translate(-24.000000, 29.500000)">
+                    <rect id="Rectangle" fill="#D8D8D8" x="3" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#D8D8D8" x="20" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#D8D8D8" x="36" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#D8D8D8" x="53" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#D8D8D8" x="69" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#959CB4" x="50" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-9" fill="#959CB4" x="33" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#959CB4" x="17" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-11" fill="#959CB4" x="0" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#959CB4" x="66" y="6" width="12" height="13" rx="3"></rect>
+                </g>
+                <g id="Group-Copy-3" transform="translate(4.000000, 39.500000) rotate(90.000000) translate(-4.000000, -39.500000) translate(-33.000000, 35.500000)" fill="#7C7C7C">
+                    <circle id="Oval-Copy-7" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-8" cx="19" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-9" cx="36" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-10" cx="53" cy="4" r="4"></circle>
+                    <g id="Oval-Copy-12" transform="translate(66.000000, 0.000000)">
+                        <circle id="Oval-Copy-11" cx="4" cy="4" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(65.250000, 118.250000) rotate(-90.000000) translate(-65.250000, -118.250000) translate(53.000000, 79.250000)">
+                <g id="pin-rect-copy-2" transform="translate(15.000000, 39.000000) rotate(-90.000000) translate(-15.000000, -39.000000) translate(-24.000000, 29.500000)">
+                    <rect id="Rectangle" fill="#D8D8D8" x="3" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#D8D8D8" x="20" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#D8D8D8" x="36" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#D8D8D8" x="53" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#D8D8D8" x="69" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#959CB4" x="50" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-9" fill="#959CB4" x="33" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#959CB4" x="17" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-11" fill="#959CB4" x="0" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#959CB4" x="66" y="6" width="12" height="13" rx="3"></rect>
+                </g>
+                <g id="Group-Copy-3" transform="translate(4.000000, 39.500000) rotate(90.000000) translate(-4.000000, -39.500000) translate(-33.000000, 35.500000)" fill="#7C7C7C">
+                    <circle id="Oval-Copy-7" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-8" cx="19" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-9" cx="36" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-10" cx="53" cy="4" r="4"></circle>
+                    <g id="Oval-Copy-12" transform="translate(66.000000, 0.000000)">
+                        <circle id="Oval-Copy-11" cx="4" cy="4" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(0.000000, 24.250000)">
+                <g id="pin-rect-copy-2" transform="translate(15.000000, 39.000000) rotate(-90.000000) translate(-15.000000, -39.000000) translate(-24.000000, 29.500000)">
+                    <rect id="Rectangle" fill="#D8D8D8" x="3" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#D8D8D8" x="20" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#D8D8D8" x="36" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#D8D8D8" x="53" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#D8D8D8" x="69" y="0" width="6" height="8"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#959CB4" x="50" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-9" fill="#959CB4" x="33" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#959CB4" x="17" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-11" fill="#959CB4" x="0" y="6" width="12" height="13" rx="3"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#959CB4" x="66" y="6" width="12" height="13" rx="3"></rect>
+                </g>
+                <g id="Group-Copy-3" transform="translate(4.000000, 39.500000) rotate(90.000000) translate(-4.000000, -39.500000) translate(-33.000000, 35.500000)" fill="#7C7C7C">
+                    <circle id="Oval-Copy-7" cx="4" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-8" cx="19" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-9" cx="36" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-10" cx="53" cy="4" r="4"></circle>
+                    <g id="Oval-Copy-12" transform="translate(66.000000, 0.000000)">
+                        <circle id="Oval-Copy-11" cx="4" cy="4" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="side-circle" transform="translate(15.000000, 8.000000)" fill="#6ACA5F">
+            <circle id="Oval" cx="115" cy="5" r="5"></circle>
+            <circle id="Oval-Copy-5" cx="5" cy="5" r="5"></circle>
+            <circle id="Oval-Copy-4" cx="115" cy="128" r="5"></circle>
+            <circle id="Oval-Copy-6" cx="5" cy="129" r="5"></circle>
+        </g>
+        <rect id="Rectangle" fill="#5B5D6F" x="28" y="29" width="94" height="94" rx="13"></rect>
+        <circle id="Oval" fill="#454555" cx="42" cy="42" r="4"></circle>
+        <text id="WG-CV" font-family="Arial-Black, Arial Black" font-size="28" font-weight="700" line-spacing="24" fill="#BEBDD9">
+            <tspan x="49" y="78">WG</tspan>
+            <tspan x="52.6435547" y="102">CV</tspan>
+        </text>
+    </g>
+</svg>
