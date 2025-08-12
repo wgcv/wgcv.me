@@ -31,7 +31,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/projects/lstm_classification_mayor_2019.jpg',
     href: '/blog/es/artificial-intelligent/analisis-de-redes-sociales-para-alcalde-de-guayaquil-2019',
   },
-
+  {
+    title: 'Style Transfer with Deep Learning',
+    description: `"Using transfer learning with a 19-layer VGG network, this project applies the style of Guayasamín to a drawing of the Cheshire Cat.`,
+    imgSrc: 'https://github.com/wgcv/Style-Transfer-with-Deep-Learning/raw/master/res/cat_guayasamin%20(1).jpg?raw=true',
+    href: 'https://github.com/wgcv/Style-Transfer-with-Deep-Learning',
+  },
   {
     title: 'From Spanish Audio to Insight: Text Transcription and Sentiment Analysis',
     description: `Utilized Facebook's wav2vec2-large-xlsr-53 for Spanish audio-to-text 
