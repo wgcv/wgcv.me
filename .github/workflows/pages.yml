@@ -35,8 +35,7 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
       - run: yarn
       - name: Build with Next.js
-        run:
-          yarn build
+        run: yarn build
         env:
           EXPORT: 1
           UNOPTIMIZED: 1

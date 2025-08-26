@@ -34,7 +34,8 @@ const projectsData: Project[] = [
   {
     title: 'Style Transfer with Deep Learning',
     description: `"Using transfer learning with a 19-layer VGG network, this project applies the style of Guayasamín to a drawing of the Cheshire Cat.`,
-    imgSrc: 'https://github.com/wgcv/Style-Transfer-with-Deep-Learning/raw/master/res/cat_guayasamin%20(1).jpg?raw=true',
+    imgSrc:
+      'https://github.com/wgcv/Style-Transfer-with-Deep-Learning/raw/master/res/cat_guayasamin%20(1).jpg?raw=true',
     href: 'https://github.com/wgcv/Style-Transfer-with-Deep-Learning',
   },
   {
