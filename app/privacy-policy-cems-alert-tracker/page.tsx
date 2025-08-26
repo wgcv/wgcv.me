@@ -99,8 +99,38 @@ export default function CEMSAlertTracker() {
               <ul className="mb-6 list-disc space-y-2 pl-6 text-gray-600 dark:text-gray-300">
                 <li>You may update or delete your profile information at any time.</li>
                 <li>You can control task and report entries within the app.</li>
-                <li>If you wish to request deletion of all data, contact us at [support email].</li>
+                <li>
+                  If you wish to request deletion of all data, contact us at
+                  gstavocevallos@gmail.com.
+                </li>
               </ul>
+
+              <h2 className="mb-4 mt-8 text-2xl font-semibold text-gray-900 dark:text-white">
+                5.1. Data Deletion
+              </h2>
+              <p className="mb-4 text-gray-600 dark:text-gray-300">
+                You have the right to request the deletion of your personal data at any time. To
+                request data deletion:
+              </p>
+              <ul className="mb-6 list-disc space-y-2 pl-6 text-gray-600 dark:text-gray-300">
+                <li>
+                  Send an email to gstavocevallos@gmail.com with the subject line "Data Deletion
+                  Request"
+                </li>
+                <li>
+                  Include your name, team affiliation, and the specific data you wish to have
+                  deleted
+                </li>
+                <li>We will process your request within 30 days and confirm the deletion</li>
+                <li>
+                  Please note that some data may be retained if required by law or for emergency
+                  response purposes
+                </li>
+              </ul>
+              <p className="mb-6 italic text-gray-600 dark:text-gray-300">
+                Note: Deletion of certain emergency response data may be subject to legal retention
+                requirements for incident documentation and safety purposes.
+              </p>
 
               <h2 className="mb-4 mt-8 text-2xl font-semibold text-gray-900 dark:text-white">
                 6. Children's Privacy
